@@ -1,7 +1,7 @@
 # Modelo-CNN-pre-entrenado-
 Modelo de Autoencoder CNN pre-entrenado. Se presenta un modelo de 4 capas convolucionales preentrenado con espectrogramas de ballenas barbadas.
-
 Para utilizar este modelo, es conveniente descargar todos los archivos y unirlos en una carpeta.
+
 A continuación, se detallan algunos datos que podrían ser de ineterés:
 
 ### DIMENSIÓN DE LOS DATOS DE ENTRADA. 
@@ -16,7 +16,7 @@ La arquitectura propuesta posee en la etapa de extracción de características 4
 - 4º capa:  64 Filtros de 3x3x1. El Stride será de 1 y el padding se acomoda.
 
 ### DATOS DE ENTRENAMIENTO 
-LEARNING_RATE = 0.0005
-BATCH_SIZE = 70
-EPOCHS = 60
-porcentaje_validacion=0.2
+LEARNING_RATE = 0.0005;
+BATCH_SIZE = 70;
+EPOCHS = 60;
+porcentaje_validacion=0.2.
